@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOT Loss Calculator</title>
+</head>
+<body>
+    <h1>Polkadot DOT Loss Calculator</h1>
+    <form method="POST">
+        <label for="target_address">Target Address:</label>
+        <input type="text" id="target_address" name="target_address" required>
+        <br>
+        <label for="transfer_amount">Amount:</label>
+        <input type="text" id="transfer_amount" name="transfer_amount" required>
+        <br>
+        <button type="submit">Calculate Loss</button>
+    </form>
+    <div>
+        <p>{{ message }}</p>
+    </div>
+</body>
+</html>
